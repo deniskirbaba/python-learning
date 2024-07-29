@@ -53,7 +53,7 @@ In Python, like in C, any non-zero integer value is true; zero is false. The con
 ## For
 Python’s for statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.
 ## Range
-If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It generates arithmetic progressions
+If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It generates arithmetic progressions.
 range is a class of immutable iterable objects. Their iteration behavior can be compared to lists: you can't call next directly on them; you have to get an iterator by using iter.
 
 We say such an object is iterable, that is, suitable as a target for functions and constructs that expect something from which they can obtain successive items until the supply is exhausted. We have seen that the for statement is such a construct
